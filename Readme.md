@@ -62,4 +62,6 @@ The following values are used for generating the signature
 
 ## Nuget
 
-To come
+[![Build status](https://ci.appveyor.com/api/projects/status/sefwyg9p87kcm3wg?svg=true)](https://ci.appveyor.com/project/NsdWorkBook/hmac)
+
+Package feed: https://ci.appveyor.com/nuget/hmac-8ur3ps4toqs6
