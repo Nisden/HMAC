@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Nisd</Authors>
+    <Company />
+    <Product>HMACAuthentication</Product>
+    <Description>Simple HMAC authentication for ASP.NET Core</Description>
+    <PackageProjectUrl>https://github.com/NsdWorkBook/HMAC</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/NsdWorkBook/HMAC/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/NsdWorkBook/HMAC.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>HMAC</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nisd.Web.HMACAuthentication.Client\Nisd.Web.HMACAuthentication.Client.csproj" />
+  </ItemGroup>
+
+</Project>

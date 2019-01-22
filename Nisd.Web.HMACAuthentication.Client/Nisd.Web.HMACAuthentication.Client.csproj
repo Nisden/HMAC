@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Nisd</Authors>
+    <Company />
+    <Product>HMACAuthentication</Product>
+    <Description>Simple HMAC authentication for ASP.NET Core
+
+This package only contains the Signature generation.</Description>
+    <PackageProjectUrl>https://github.com/NsdWorkBook/HMAC</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/NsdWorkBook/HMAC/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/NsdWorkBook/HMAC.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>HMAC</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
